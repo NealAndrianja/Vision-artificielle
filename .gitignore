@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings (if using VSCode)
+.vscode/
+
+# PyTorch-related cache
+*.pt
+*.pth
+*.ckpt
+
+# PyTorch Lightning logs/checkpoints (if used)
+lightning_logs/
+
+# Data (optional - if you're working with large datasets)
+data/
+*.csv
+*.tsv
+*.json
+*.npy
+*.npz
+*.h5
+*.pkl
+
+# Jupyter runtime
+.jupyter/
+*.nbconvert.ipynb
+
+# Environment variables / secrets
+.env
+*.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
